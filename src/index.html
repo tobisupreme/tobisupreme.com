@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="assets/icons/home.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <title>tobisupreme.com</title>
+  </head>
+  <body>
+    <div id="root">
+      <header id="navbar-container" class="p-8">
+        <a href="/" id="navbar-logo" class="w-8 font-semibold"
+          >tobisupreme.com
+        </a>
+        <nav class="navbar"></nav>
+      </header>
+
+      <div class="max-[564px]:mx-8 max-[564px]:my-8 max-w-[500px] mx-auto">
+        <div id="container">
+          <section
+            id="title-card"
+            class="grid grid-cols-4 gap-4 items-center mb-9"
+          >
+            <div class="p-2 hover:p-1">
+              <img
+                class="rounded-full"
+                src="assets/icons/profile.jpg"
+                alt="Photo of tobisupreme"
+              />
+            </div>
+
+            <div id="info-card" class="col-start-2 col-span-full">
+              <h1 class="text-xl font-bold">Oluwatobi Balogun</h1>
+              <p id="tagline" class="text-gray-600 text-sm">Value Provider</p>
+            </div>
+          </section>
+
+          <section id="about" class="mb-9">
+            <h2 class="font-bold mb-4">About</h2>
+            <p class="text-gray-600 text-sm">
+              I'm a software engineer who loves solving problems, sharing
+              knowledge, and building secure, user-friendly applications. Beyond
+              coding, I'm passionate about mentoring and turning ideas into
+              impactful tools.
+            </p>
+          </section>
+
+          <section id="links">
+            <h2 class="font-bold mb-4">Links</h2>
+
+            <div class="grid grid-cols-6 gap-4 items-center text-sm mb-4">
+              <p class="text-gray-600">Github</p>
+              <div>
+                <a
+                  href="https://github.com/tobisupreme"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="flex flex-row gap-2 hover:underline"
+                >
+                  tobisupreme
+                  <img
+                    alt="link to @tobisupreme on Github"
+                    src="/assets/icons/square-arrow-out-up-right.svg"
+                    class="w-3"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-6 gap-4 items-center text-sm mb-4">
+              <p class="text-gray-600 w-10">X</p>
+              <div>
+                <a
+                  href="https://x.com/tobisupreme"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="flex flex-row gap-2 hover:underline"
+                >
+                  @tobisupreme
+                  <img
+                    alt="link to @tobisupreme on X"
+                    src="/assets/icons/square-arrow-out-up-right.svg"
+                    class="w-3"
+                  />
+                </a>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
