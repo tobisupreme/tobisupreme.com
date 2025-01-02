@@ -32,7 +32,7 @@ jobs:
           path: deployment-artifacts1.tar.gz
 
   build:
-    name: Build on Surprise Santa Ubuntu
+    name: Go live
     runs-on: self-hosted
     needs: github-build
 
