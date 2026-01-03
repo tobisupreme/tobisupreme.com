@@ -3,7 +3,6 @@ const taglines = [
   "Problem Solver",
   "Learner",
   "Value Provider",
-  "Sponsor Daddy",
   "Big Brother",
   "Occasional Bad Boy",
 ];
